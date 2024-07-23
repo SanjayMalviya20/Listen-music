@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listen-Web Player:Music for everyone</title>
+    <link rel="icon" href="logo.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body id="body">
+    <div class=" container flex black">
+        <div class="left  flex flex-dir gap black">
+            <div class="  home flex-dir gap bg-black border-radius">
+                <img class="cross" src="img/cross.png" alt="">
+                <div class="svg align">
+                    <img src="/img/logo.svg" id="my-svg" alt="logo">
+                    <h1 class="logoname">listen</h1>
+                </div>
+
+                <div class="flex gap margin">
+                    <img src="img/f.svg" alt="home" class="h-logo invert" >
+                    <h4 class="grap font-w">Home</h4>
+                </div>
+
+                <div class="flex gap margin">
+                    <img src="/img/search.png" alt="search" class="h-search" >
+                    <h4 class="grap font-w">Search</h4>
+                </div>
+            </div>
+
+            <div class="library padding  bg-black border-radius flex  flex-dir gap ">
+                <div class="heading flex flex-dir ">
+              <div class="flex  justify align">
+                    <img class=" playlist" src="/img/icon1.png" alt="playlist" >
+                    <h4 class="font-w">Your Library</h4>
+                </div>
+                    <div class="songlist">
+                        <ul>
+                         
+                        </ul>
+                    </div>
+                </div>
+                
+                <footer class="footer gap flex-wrap ">
+                    <div><a href="index.html" class="text-n">Legal</a></div>
+                    <div><a href="index.html" class="text-n">PrivacyCenetr</a></div>
+                    <div><a href="index.html" class="text-n">PrivacyPOLICY</a></div>
+                    <div><a href="index.html" class="text-n">Cookies</a></div>
+                    <div><a href="index.html" class="text-n">About Ads</a></div>
+                    <div><a href="index.html" class="text-n">Accessblity</a></div>
+                   <a href="https://www.instagram.com/sanjay_malviya19/"><img src="img/instagram.svg" alt="insta"></a>
+                </footer>
+            </div>
+        </div>
+
+        <div class="right black border-radius">
+            <div class="header flex border-radius  justify-space">
+                <div class="nav ">
+                    <img src="img/menu-01.svg" alt="burger" class="hamburger">
+                    <img src="img/larrow.svg" alt=" left">
+                    <img src="img/rarrow.svg" alt="right">
+                </div>
+
+                <div class="flex justify align">
+                    <img class="naruto" src="img/naruto.gif" alt="error" data-aos="zoom-in-down">
+                </div>
+                <div class="logbutton ">
+                    <button onclick="notwork()"  class=" SignUpbtn">SignUp</button>
+                    <button onclick="notworks()" class="loginbtn">Login</button>
+                </div>
+            </div>
+            <div class="listen-playlist ">
+                <h1 class="h-p">Listen Playlist</h1>
+                <div  class="card-con flex  ">
+                                                            
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="abovebar">
+                   
+                        <marquee class="songinfo"  direction="right">
+                         <!-- songname -->
+                        </marquee>
+                    
+                    <div class="songbtn">
+                        <img id="previous" src="img/previous.svg" alt="previous">
+                        <img id="play" src="img/plays.png" alt="play" >
+                        <img id="next" src="img/next.svg" alt="next" >
+                    </div>
+                    <div class="songtime">
+                        <!-- songtime  -->
+                    </div>
+                <div class="volumerange">
+                    <img  class="volume cursor" src="img/volume.svg" alt="volume">
+                    <input class="cursor" type="range" name="range" id="range">
+                </div>
+    
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script  src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration:600,
+      });
+    </script>
+</body>
+
+</html>
+
+

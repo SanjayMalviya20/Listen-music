@@ -1,0 +1,118 @@
+
+.flex{
+    display: flex;
+}
+.justify{
+justify-content: center;
+}
+.justify-space{
+    justify-content: space-between;
+}
+.flex-dir{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+.align{
+    align-items: center;
+}
+.border{
+    border: 1px solid #072ef3;
+}
+.svg{
+    display: flex;
+}
+.gap{
+    gap: 10px;
+}
+.gap2{
+
+    gap: 4px;
+}
+
+.border-radius{
+
+    border-radius: 18px;
+}
+.invert{
+    filter: invert(1);
+}
+
+.margin{
+    margin-left: 10px;
+}
+
+.bg-black{
+
+    background-color: #121212;
+}
+.black{
+    background-color: rgb(0, 0, 0);
+}
+
+.grap{
+    cursor: grab;
+}
+
+.padding{
+    padding: 10px;
+}
+
+.font-w{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:600;
+    
+}
+
+.text-n{
+    text-decoration: none;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+
+/* ::-webkit-scrollbar{
+
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+
+    background-color: rgb(77, 3, 60);
+    border-radius: 50px;
+
+} */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #333; /* Dark background */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #3c82a6; /* Darker handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #777; /* Lighter handle on hover */
+}
+
+/* Container to showcase scrollbar */
+.scrollable-content {
+    width: 300px;
+    height: 200px;
+    overflow-y: scroll;
+    background: #5c8da5; /* Dark background */
+    color: #fff; /* Light text */
+    padding: 10px;
+}
+
+.cursor{
+    cursor: pointer;
+}
